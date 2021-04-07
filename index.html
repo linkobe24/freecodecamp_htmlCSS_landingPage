@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b13f26803.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="freecodecamp logo trombones">
+            </div>
+                
+            <nav id="nav-bar">
+                <ul>
+                   <li><a class="nav-link" href="#features">Features</a></li> 
+                   <li><a class="nav-link" href="how-it-works">How It Works</a></li> 
+                   <li><a class="nav-link" href="pricing">Pricing</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <div id="container"></div>
+            <section id="signin">
+                <h2>The best way to do it</h2>
+                <form id="form">
+                    <input name ="email" id="email" type="email" placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" value="Lets Begin" class="btn">
+                </form>
+            </section>
+        <div id="container">
+            <section id="features">
+                <div class="feature-distribution">
+                    <div class="icon">
+                        <i class="fas fa-3x fa-kiwi-bird" aria-hidden="true"></i>
+                    </div>
+                    <div class="description">
+                        <h2>With kiwis</h2>
+                        <p>Every lesson is instructed by a kiwi, so it is more than obvious
+                            that you are going to sign here.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-distribution">
+                    <div class="icon">
+                        <i class="fas fa-3x fa-truck" aria-hidden="true"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Fast Shipping</h2>
+                        <p>As fast as it gets. Theses lessons are provided as online content.
+                            Therefore, there is no need for you to commute outside your house
+                            or wait for them to be delivered.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-distribution">
+                    <div class="icon">
+                        <i class="fas fa-3x fa-user-shield" aria-hidden="true"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Quality Assurance</h2>
+                        <p>Our qualified kiwi department makes sure that all the content is of
+                            high-grade quality. It won't damage your computer nor yourself in the
+                            process.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" width="640" height="360" 
+                src="http://www.youtube.com/embed/M7lc1UVf-VE?rel=0&amp;controls=0&amp;showinfo=0">
+                    Your browser does not support this video tag
+                </iframe>
+            </section>
+            <section id="pricing">
+                <div class="product">
+                   Product 1
+                   <h2 class="price">$600</h2>
+                    <div class="list">
+                        <ol>
+                            <li>bla bla</li>
+                            <li>bla bla bla</li>
+                            <li>bla bla bla</li>
+                        </ol>
+                    </div>
+                    <button class="btn">Subscribe</button>
+                </div>
+                <div class="product">
+                    Product 2
+                   <h2 class="price">$900</h2>
+                    <div class="list">
+                        <ol>
+                            <li>bla bla</li>
+                            <li>bla bla bla</li>
+                            <li>bla bla bla</li>
+                        </ol>
+                    </div>
+                    <button class="btn">Subscribe</button>
+                </div>
+                <div class="product best-value">
+                    Product 3
+                    <h2 class="price">$1200</h2>
+                    <div class="list">
+                        <ol>
+                            <li>bla bla</li>
+                            <li>bla bla bla</li>
+                            <li>bla bla bla</li>
+                        </ol>
+                    </div>
+                    <button class="btn">Subscribe</button>
+                </div>
+            </section>
+            <footer id="footer">
+                <div class="footer-list">
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <span id="span-footer">Copyright 2021, Kiwi Teacher</span>
+                </div>
+            </footer>
+        </>
+    </div>
+</body>
+</html>
